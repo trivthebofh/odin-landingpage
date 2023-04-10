@@ -50,20 +50,20 @@ body {
   .header-botton {
     height: 463px;
     display: flex;
-    flex: 0 0 auto;
-    padding: 20px;
-    gap: 20px;
+    /*flex: 0 0 auto; */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .header-bottom-container {
+  .container {
     width: 520px;
     height: 235px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
   }
 
   .header-bold {
@@ -73,6 +73,7 @@ body {
 
   .header-text {
     font-size: 18px;
+    margin-bottom: 20px;
   }
 
   .body {
@@ -80,11 +81,11 @@ body {
     display: flex;
   }
 
-  .container {
+  /*.container {
     flex-wrap: wrap;
     padding: 32px;
     display: flex;
-  }
+  } */
   
   .footer {
     height: 72px;
