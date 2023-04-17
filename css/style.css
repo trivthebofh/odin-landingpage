@@ -192,6 +192,7 @@
   .cta-left {
     display: flex;
     flex-direction: column;
+    margin-left: 75px;
   }
 
   .cta-left-top {
@@ -201,6 +202,11 @@
 
   .cta-left-bottom {
     font-size: 18px;
+  }
+
+  .cta-right {
+    margin-left: auto;
+    margin-right: 75px;
   }
 
   /*.container {
@@ -216,21 +222,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .sidebar {
-    width: 300px;
-    background: royalblue;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    padding: 16px;
-  }
-  
-  .card {
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    padding: 16px;
-    margin: 16px;
-    width: 300px;
   }
