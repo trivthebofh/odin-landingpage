@@ -24,7 +24,12 @@
 
   ul {
     list-style-type: none;
-    padding: 16px;
+    /*padding: 16px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
   }
   
   .header {
@@ -39,6 +44,7 @@
     height: 72px;
     display: flex;
     font-size: 24px;
+    flex-direction: row;
   }
 
   .logo {
@@ -46,6 +52,12 @@
     display: flex;
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .hnav {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .header-botton {
