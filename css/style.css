@@ -159,11 +159,20 @@
   .first-card-top {
     display: flex;
     justify-content: center;
-    border: 4px solid #3882F6;
-    border-radius: 15px;
     height: 175px;
     margin-bottom: 10px;
     object-fit: cover;
+  }
+
+  .first-card-top img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 175px;
+    height: 175;
+  }
+
+  .first-card-top {
+    max-width: 175px;
   }
 
   .first-card-bottom {
